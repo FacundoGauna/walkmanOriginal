@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="video-container">
+            <video id="walkmanVideo" loop playsinline>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+
+            <button id="playPauseBtn" class="play">▶</button>
+        </div>
+
+        <audio id="clickSound">
+            <source src="audio/Sonidocasette.wav" type="audio/wav">
+        </audio>
+
+        <audio id="music" loop>
+            <source src="audio/Casette_prueba3.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
